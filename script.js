@@ -228,12 +228,12 @@ function getShowById(e) {
 //  ...... event listeners....... //
 selectEl.addEventListener("change", (e) => {
   showEpisode(e, allEpisodes);
-  searchInput.innerHTML=""
+  // searchInput.innerHTML=""
 })
 
 SelectShow.addEventListener("change", (e) => {
   getShowById(e);
-  searchInput.innerHTML=""
+  // searchInput.innerHTML=""
 
 })
 homeBtn.addEventListener("click",() => {
