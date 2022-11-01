@@ -3,7 +3,7 @@
 //This content is from https://www.tvmaze.com/
 //specifically: https://api.tvmaze.com/shows
 
-function getOneShow() {
+function getOneShow () {
   return {
     id: 82,
     url: "http://www.tvmaze.com/shows/82/game-of-thrones",
