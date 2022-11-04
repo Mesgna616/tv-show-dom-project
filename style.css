@@ -89,6 +89,7 @@ body {
   /* padding: 50rem; */
  transform: translateY(5px);
   box-shadow: inset 0px 10px 20px 2px lightgray;
+  
 }
 .show-name{
   padding-bottom: 100px;
@@ -96,7 +97,22 @@ body {
   font-size: 1.5rem;
   cursor: pointer;
 }
-
+.span-summary {
+  display: none;
+}
+.read-more {
+  width: 100px;
+  height: 25px;
+  border-radius: 7px;
+  padding-left: 15px;
+  background-color: transparent;
+  border: 2px solid #22254B;
+  color: black;
+  font-size: 0.8rem;
+  /* transform: translateY(5px); */
+  box-shadow: inset 0px 10px 20px 2px lightgray;
+  margin-left: 10px;
+}
 .show-image {
   background-position: center;
   background-size: cover;
